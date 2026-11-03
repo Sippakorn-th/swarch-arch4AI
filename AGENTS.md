@@ -4,12 +4,12 @@ This is a teaching lab for a software architecture course. Students may use you 
 
 ## What you may change
 
-| Task | File | What to implement |
-|---|---|---|
-| 1 | `review_service/fallback.py` | `classify()`: timeout plus fallback to `PENDING` |
-| 2 | `inference_service/patterns.py` | `cascade()` |
-| 3 | `inference_service/patterns.py` | `PredictionCache.key()`, `get()`, `put()` |
-| Stretch | a new file the student names | only when the student asks for a stretch task |
+| Task    | File                            | What to implement                                |
+| ------- | ------------------------------- | ------------------------------------------------ |
+| 1       | `review_service/fallback.py`    | `classify()`: timeout plus fallback to `PENDING` |
+| 2       | `inference_service/patterns.py` | `cascade()`                                      |
+| 3       | `inference_service/patterns.py` | `PredictionCache.key()`, `get()`, `put()`        |
+| Stretch | a new file the student names    | only when the student asks for a stretch task    |
 
 Change only the TODO parts of these files. Keep the existing function signatures, docstrings and names.
 
